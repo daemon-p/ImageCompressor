@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919790C7240F846100F75002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919790C6240F846100F75002 /* AppDelegate.swift */; };
+		919790C9240F846100F75002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919790C8240F846100F75002 /* ViewController.swift */; };
+		919790CB240F846300F75002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919790CA240F846300F75002 /* Assets.xcassets */; };
+		919790CE240F846300F75002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919790CC240F846300F75002 /* Main.storyboard */; };
+		91979211240F90C900F75002 /* zlib_container.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791EF240F90C900F75002 /* zlib_container.c */; };
+		91979212240F90C900F75002 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F1240F90C900F75002 /* util.c */; };
+		91979213240F90C900F75002 /* zopfli_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F2240F90C900F75002 /* zopfli_lib.c */; };
+		91979214240F90C900F75002 /* blocksplitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F3240F90C900F75002 /* blocksplitter.c */; };
+		91979215240F90C900F75002 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F4240F90C900F75002 /* deflate.c */; };
+		91979216240F90C900F75002 /* squeeze.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F5240F90C900F75002 /* squeeze.c */; };
+		91979218240F90C900F75002 /* gzip_container.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791F8240F90C900F75002 /* gzip_container.c */; };
+		91979219240F90C900F75002 /* katajainen.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791FA240F90C900F75002 /* katajainen.c */; };
+		9197921A240F90C900F75002 /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791FB240F90C900F75002 /* hash.c */; };
+		9197921B240F90C900F75002 /* lz77.c in Sources */ = {isa = PBXBuildFile; fileRef = 919791FD240F90C900F75002 /* lz77.c */; };
+		9197921C240F90C900F75002 /* cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 91979201240F90C900F75002 /* cache.c */; };
+		9197921D240F90C900F75002 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 91979207240F90C900F75002 /* tree.c */; };
+		9197921E240F90C900F75002 /* zopflipng_lib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9197920A240F90C900F75002 /* zopflipng_lib.cc */; };
+		9197921F240F90C900F75002 /* lodepng_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9197920D240F90C900F75002 /* lodepng_util.cpp */; };
+		91979220240F90C900F75002 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9197920E240F90C900F75002 /* lodepng.cpp */; };
+		91979224240FB08200F75002 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91979223240FB08200F75002 /* DestinationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		919790C3240F846100F75002 /* ImageCompressor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCompressor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919790C6240F846100F75002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919790C8240F846100F75002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		919790CA240F846300F75002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919790CD240F846300F75002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919790CF240F846300F75002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919790D0240F846300F75002 /* ImageCompressor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageCompressor.entitlements; sourceTree = "<group>"; };
+		919791EE240F90C900F75002 /* lz77.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lz77.h; sourceTree = "<group>"; };
+		919791EF240F90C900F75002 /* zlib_container.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlib_container.c; sourceTree = "<group>"; };
+		919791F0240F90C900F75002 /* symbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symbols.h; sourceTree = "<group>"; };
+		919791F1240F90C900F75002 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		919791F2240F90C900F75002 /* zopfli_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zopfli_lib.c; sourceTree = "<group>"; };
+		919791F3240F90C900F75002 /* blocksplitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocksplitter.c; sourceTree = "<group>"; };
+		919791F4240F90C900F75002 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		919791F5240F90C900F75002 /* squeeze.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = squeeze.c; sourceTree = "<group>"; };
+		919791F7240F90C900F75002 /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
+		919791F8240F90C900F75002 /* gzip_container.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzip_container.c; sourceTree = "<group>"; };
+		919791F9240F90C900F75002 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		919791FA240F90C900F75002 /* katajainen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = katajainen.c; sourceTree = "<group>"; };
+		919791FB240F90C900F75002 /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		919791FC240F90C900F75002 /* zlib_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib_container.h; sourceTree = "<group>"; };
+		919791FD240F90C900F75002 /* lz77.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lz77.c; sourceTree = "<group>"; };
+		919791FE240F90C900F75002 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		919791FF240F90C900F75002 /* blocksplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blocksplitter.h; sourceTree = "<group>"; };
+		91979200240F90C900F75002 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		91979201240F90C900F75002 /* cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cache.c; sourceTree = "<group>"; };
+		91979202240F90C900F75002 /* squeeze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squeeze.h; sourceTree = "<group>"; };
+		91979203240F90C900F75002 /* zopfli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zopfli.h; sourceTree = "<group>"; };
+		91979204240F90C900F75002 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		91979205240F90C900F75002 /* katajainen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = katajainen.h; sourceTree = "<group>"; };
+		91979206240F90C900F75002 /* gzip_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzip_container.h; sourceTree = "<group>"; };
+		91979207240F90C900F75002 /* tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
+		91979209240F90C900F75002 /* zopflipng_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zopflipng_lib.h; sourceTree = "<group>"; };
+		9197920A240F90C900F75002 /* zopflipng_lib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zopflipng_lib.cc; sourceTree = "<group>"; };
+		9197920C240F90C900F75002 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
+		9197920D240F90C900F75002 /* lodepng_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng_util.cpp; sourceTree = "<group>"; };
+		9197920E240F90C900F75002 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
+		9197920F240F90C900F75002 /* lodepng_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng_util.h; sourceTree = "<group>"; };
+		91979222240F926B00F75002 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		91979223240FB08200F75002 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919790C0240F846100F75002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919790BA240F846100F75002 = {
+			isa = PBXGroup;
+			children = (
+				919790C5240F846100F75002 /* ImageCompressor */,
+				919790C4240F846100F75002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919790C4240F846100F75002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919790C3240F846100F75002 /* ImageCompressor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919790C5240F846100F75002 /* ImageCompressor */ = {
+			isa = PBXGroup;
+			children = (
+				919790C6240F846100F75002 /* AppDelegate.swift */,
+				919790C8240F846100F75002 /* ViewController.swift */,
+				91979223240FB08200F75002 /* DestinationView.swift */,
+				91979222240F926B00F75002 /* module.modulemap */,
+				919791EC240F90C900F75002 /* src */,
+				919790CA240F846300F75002 /* Assets.xcassets */,
+				919790CC240F846300F75002 /* Main.storyboard */,
+				919790CF240F846300F75002 /* Info.plist */,
+				919790D0240F846300F75002 /* ImageCompressor.entitlements */,
+			);
+			path = ImageCompressor;
+			sourceTree = "<group>";
+		};
+		919791EC240F90C900F75002 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				919791ED240F90C900F75002 /* zopfli */,
+				91979208240F90C900F75002 /* zopflipng */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		919791ED240F90C900F75002 /* zopfli */ = {
+			isa = PBXGroup;
+			children = (
+				919791EE240F90C900F75002 /* lz77.h */,
+				919791EF240F90C900F75002 /* zlib_container.c */,
+				919791F0240F90C900F75002 /* symbols.h */,
+				919791F1240F90C900F75002 /* util.c */,
+				919791F2240F90C900F75002 /* zopfli_lib.c */,
+				919791F3240F90C900F75002 /* blocksplitter.c */,
+				919791F4240F90C900F75002 /* deflate.c */,
+				919791F5240F90C900F75002 /* squeeze.c */,
+				919791F7240F90C900F75002 /* cache.h */,
+				919791F8240F90C900F75002 /* gzip_container.c */,
+				919791F9240F90C900F75002 /* tree.h */,
+				919791FA240F90C900F75002 /* katajainen.c */,
+				919791FB240F90C900F75002 /* hash.c */,
+				919791FC240F90C900F75002 /* zlib_container.h */,
+				919791FD240F90C900F75002 /* lz77.c */,
+				919791FE240F90C900F75002 /* deflate.h */,
+				919791FF240F90C900F75002 /* blocksplitter.h */,
+				91979200240F90C900F75002 /* util.h */,
+				91979201240F90C900F75002 /* cache.c */,
+				91979202240F90C900F75002 /* squeeze.h */,
+				91979203240F90C900F75002 /* zopfli.h */,
+				91979204240F90C900F75002 /* hash.h */,
+				91979205240F90C900F75002 /* katajainen.h */,
+				91979206240F90C900F75002 /* gzip_container.h */,
+				91979207240F90C900F75002 /* tree.c */,
+			);
+			path = zopfli;
+			sourceTree = "<group>";
+		};
+		91979208240F90C900F75002 /* zopflipng */ = {
+			isa = PBXGroup;
+			children = (
+				91979209240F90C900F75002 /* zopflipng_lib.h */,
+				9197920A240F90C900F75002 /* zopflipng_lib.cc */,
+				9197920B240F90C900F75002 /* lodepng */,
+			);
+			path = zopflipng;
+			sourceTree = "<group>";
+		};
+		9197920B240F90C900F75002 /* lodepng */ = {
+			isa = PBXGroup;
+			children = (
+				9197920C240F90C900F75002 /* lodepng.h */,
+				9197920D240F90C900F75002 /* lodepng_util.cpp */,
+				9197920E240F90C900F75002 /* lodepng.cpp */,
+				9197920F240F90C900F75002 /* lodepng_util.h */,
+			);
+			path = lodepng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919790C2240F846100F75002 /* ImageCompressor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919790D3240F846300F75002 /* Build configuration list for PBXNativeTarget "ImageCompressor" */;
+			buildPhases = (
+				919790BF240F846100F75002 /* Sources */,
+				919790C0240F846100F75002 /* Frameworks */,
+				919790C1240F846100F75002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCompressor;
+			productName = ImageCompressor;
+			productReference = 919790C3240F846100F75002 /* ImageCompressor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919790BB240F846100F75002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dumbass.cn;
+				TargetAttributes = {
+					919790C2240F846100F75002 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 919790BE240F846100F75002 /* Build configuration list for PBXProject "ImageCompressor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919790BA240F846100F75002;
+			productRefGroup = 919790C4240F846100F75002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919790C2240F846100F75002 /* ImageCompressor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919790C1240F846100F75002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919790CB240F846300F75002 /* Assets.xcassets in Resources */,
+				919790CE240F846300F75002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919790BF240F846100F75002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9197921D240F90C900F75002 /* tree.c in Sources */,
+				9197921B240F90C900F75002 /* lz77.c in Sources */,
+				91979211240F90C900F75002 /* zlib_container.c in Sources */,
+				9197921E240F90C900F75002 /* zopflipng_lib.cc in Sources */,
+				91979212240F90C900F75002 /* util.c in Sources */,
+				9197921C240F90C900F75002 /* cache.c in Sources */,
+				91979215240F90C900F75002 /* deflate.c in Sources */,
+				9197921F240F90C900F75002 /* lodepng_util.cpp in Sources */,
+				91979214240F90C900F75002 /* blocksplitter.c in Sources */,
+				91979224240FB08200F75002 /* DestinationView.swift in Sources */,
+				91979216240F90C900F75002 /* squeeze.c in Sources */,
+				91979213240F90C900F75002 /* zopfli_lib.c in Sources */,
+				9197921A240F90C900F75002 /* hash.c in Sources */,
+				919790C9240F846100F75002 /* ViewController.swift in Sources */,
+				919790C7240F846100F75002 /* AppDelegate.swift in Sources */,
+				91979220240F90C900F75002 /* lodepng.cpp in Sources */,
+				91979218240F90C900F75002 /* gzip_container.c in Sources */,
+				91979219240F90C900F75002 /* katajainen.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		919790CC240F846300F75002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919790CD240F846300F75002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919790D1240F846300F75002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		919790D2240F846300F75002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		919790D4240F846300F75002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ImageCompressor/ImageCompressor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageCompressor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dumbass.ImageCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = ImageCompressor;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		919790D5240F846300F75002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ImageCompressor/ImageCompressor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageCompressor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dumbass.ImageCompressor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = ImageCompressor;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919790BE240F846100F75002 /* Build configuration list for PBXProject "ImageCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919790D1240F846300F75002 /* Debug */,
+				919790D2240F846300F75002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919790D3240F846300F75002 /* Build configuration list for PBXNativeTarget "ImageCompressor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919790D4240F846300F75002 /* Debug */,
+				919790D5240F846300F75002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919790BB240F846100F75002 /* Project object */;
+}

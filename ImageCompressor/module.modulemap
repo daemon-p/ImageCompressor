@@ -1,0 +1,5 @@
+module zopflipng [system] [extern_c] {
+    header "src/zopflipng/zopflipng_lib.h"
+    export *
+}
+
